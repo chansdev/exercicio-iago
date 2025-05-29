@@ -118,6 +118,28 @@ int main() {
     return 0;
 }
 
+## 7
+#include <stdio.h>
+
+int main() {
+    int n1, n2, n3;
+    printf("Fale 3 numeros para saber o maior V\n");
+    printf("O primeiro: ");
+    scanf("%d", &n1);
+    printf("O segundo: ");
+    scanf("%d", &n2);
+    printf("O terceiro: ");
+    scanf("%d", &n3);
+    
+    if (n1 > n2 && n1 > n3) {
+        printf("%d é o maior numero", n1);
+    } else if (n2 > n3) {
+        printf("%d é o maior numero", n2);
+    } else {
+        printf("%d é o maior numero", n3);
+    }
+}
+
 ## 25
 #include <stdio.h>
 
