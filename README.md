@@ -140,6 +140,43 @@ int main() {
     }
 }
 
+## 8
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float n, raiz;
+    printf("Diga um nuemro para ver a raiz quadrada dele:\t");
+    scanf("%f", &n);
+    
+    raiz = sqrt(n);
+    printf("A raiz quadrada de %.2f é: %.2f", n, raiz);
+}
+
+## 9
+_Transformar string em int (char - '0')
+
+## 10
+
+#include <stdio.h>
+
+int main() {
+    float l1, l2, l3;
+    printf("Digite o tamanho dos lados do triangulo pra saber a sua classe: \t");
+    scanf("%f", &l1);
+    scanf("%f", &l2);
+    scanf("%f", &l3);
+    
+    if ((l1 == l2 && l1 != l3) || (l1 == l3 && l1 != l2) || (l2 == l3 && l2 != l1)) {
+        printf("É isocelis");
+    } else if (l1 == l2 && l1 == l3) {
+        printf("É equilatero");
+    } else {
+        printf("É escaleno");
+    }
+    
+}
+
 ## 25
 #include <stdio.h>
 
