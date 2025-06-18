@@ -1,6 +1,7 @@
 # exercicio-iago
 
 ## 1
+```c
 #include <stdio.h>
 
 int main() {
@@ -16,8 +17,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 2
+```c
 #include <stdio.h>
 
 int main() {
@@ -34,8 +37,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 3
+```c
 #include <stdio.h>
 
 int main() {
@@ -55,8 +60,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 4
+```c
 #include <stdio.h>
 
 int main() {
@@ -76,8 +83,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 5
+```c
 #include <stdio.h>
 
 int main() {
@@ -94,8 +103,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 6
+```
 #include <stdio.h>
 #include <math.h>
 
@@ -117,8 +128,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 7
+```c
 #include <stdio.h>
 
 int main() {
@@ -139,8 +152,10 @@ int main() {
         printf("%d é o maior numero", n3);
     }
 }
+```
 
 ## 8
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -152,12 +167,13 @@ int main() {
     raiz = sqrt(n);
     printf("A raiz quadrada de %.2f é: %.2f", n, raiz);
 }
+```
 
 ## 9
 _Transformar string em int (char - '0')
 
 ## 10
-
+```c
 #include <stdio.h>
 
 int main() {
@@ -176,8 +192,10 @@ int main() {
     }
     
 }
+```
 
 ## 25
+```c
 #include <stdio.h>
 
 int main() {
@@ -201,8 +219,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 27
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -221,8 +241,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 28
+```c
 #include <stdio.h>
 
 int main() {
@@ -260,8 +282,10 @@ int main() {
 
     return 0;
 }
+```
 
 ## 34
+```c
 #include <stdio.h>
 
 int main() {
@@ -282,3 +306,29 @@ int main() {
 }
 
 ![image](https://github.com/user-attachments/assets/ae645183-c5d1-43a4-a11d-280553c933b9)
+```
+
+## 52
+```c
+#include <stdio.h>
+
+int main() {
+    float nota, notas = 0, media, i = 0;
+    printf("Digite suas notas: \t\n");
+    
+    while (nota >= 0) {
+        scanf("%f", &nota);
+        
+        if (nota >= 0) {
+        notas += nota;
+        
+        i++;
+        }
+    }
+    
+    media = notas / i;
+    
+    printf("Media: %.2f", media);
+    return 0;
+}
+```
